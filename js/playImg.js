@@ -15,9 +15,14 @@ function showImage(){
 }
 
 const audion = document.getElementById("audioID");
-
-function play(){
+function music() {
 	audion.play();
+}
+
+window.onclick = function(){
+	music();
+}
+function play(){
 	if(t == 0){
 		myImage.setAttribute("src", "");
 		myTxt.innerHTML = "";
