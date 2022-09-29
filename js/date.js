@@ -1,7 +1,5 @@
 
 var dv = document.getElementById("content");
-var audio = document.querySelector("audio");
-window.onload = audio.play();
 dv.style.opacity = 0;
 var val = 0;
 
