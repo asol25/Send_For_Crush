@@ -1,17 +1,14 @@
 <!DOCTYPE HTML>
 <html lang="en">
 	<head>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-		<meta charset="UTF-8">
 		<title>First anniversary of love</title>
 		<link rel="stylesheet" type="text/css" href="./css/format.css">
 	</head>
 
 	<body style="margin:0px">
-		<audio autoplay loop id="playAudio">
-			<source src="./music/music.mp3" type="audio/mpeg">
-			Your browser does not support the audio.
-		</audio>
+		<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/AsNCJddUJ7k?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+
+		<audio id="audioID" loop> <source src="./music/music.mp3"  type="audio/mp3"></audio>
 		<canvas></canvas>
 		<div id="imgTxt">
 			<span id="Txt"></span> <br />
@@ -25,7 +22,7 @@
 			</div>
 		</div>
 		<div id="content">
-			<h2 id="together">Hello Bà Chị :33</h2>
+			<h2 id="together">Hello Bà Chị :3 </h2>
 			<div id="timer">
 				<b id="d"></b> Days 
 				<b id="h"></b> Hours
@@ -39,6 +36,10 @@
         	<span id="txt2"></span>
     	</div>		
 
+		    
+<script>
+    // var myaudio = document.getElementById("audioID").autoplay = true;
+</script>
 		<script >
 			var ok = 0;
 			var flag = 1;
@@ -51,7 +52,6 @@
 			 var len = imageArray.length;
 			var t = 0;
 		</script>
-		
 		<script type="text/javascript" src="./js/stars.js"></script>
 		<script type="text/javascript" src="./js/typeWriter.js"></script>
 		<script type="text/javascript" src="./js/date.js"></script>
